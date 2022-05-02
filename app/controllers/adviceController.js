@@ -1,6 +1,11 @@
 import { adviceByKeywordService } from '../services/adviceService';
 import { insertAdvice } from '../advice/model';
-
+/**
+ * Advice controller to get data from the API and also store retrived data on database
+ *
+ * @param {object} req route request param
+ * @param {object} res route response param
+ */
 const adviceByKeywordController = async (req, res) => {
   const keyword = req.params.keyword;
 
