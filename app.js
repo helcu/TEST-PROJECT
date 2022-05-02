@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 
 import './config/init';
 import './db/init';
-import router from './router';
+import router from './routes/router';
 
 const app = express();
 

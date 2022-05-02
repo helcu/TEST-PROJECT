@@ -9,7 +9,7 @@
     "db:migrate": "knex migrate:latest",
     "db:seed": "knex seed:run",
     "test": "TZ=UTC jest --silent --detectOpenHandles --testPathPattern app/",
-    "test:functional": "jest --detectOpenHandles --forceExit test/functional/*"
+    "test:functional": "jest --forceExit test/functional/*"
   },
   "engines": {
     "node": "14.17",
